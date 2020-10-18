@@ -1,6 +1,6 @@
 # Introduction
 
-We at Deepintent have been GraphQL over the past 3 years for our platform. We follow a microservice architecture, which uses [GraphQL Java](https://www.graphql-java.com/) for the various microservices, and a Apollo GraphQL service which stitches the schemas from all the micro-services together to create one executable schema (and more importantly, a single endpoint) for our front-end applications to query. 
+We at Deepintent have been using GraphQL over the past 3 years for our platform. We follow a microservice architecture, which uses [GraphQL Java](https://www.graphql-java.com/) for the various microservices, and a Apollo GraphQL service which stitches the schemas from all the micro-services together to create one executable schema (and more importantly, a single endpoint) for our front-end applications to query. 
 
 This has great benefits for the front-end web applications, as those apps can query only for the required fields, which reduces payload and results in faster loading times compared to REST, which ultimately makes our users happy 👏 
 
